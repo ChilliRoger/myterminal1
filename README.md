@@ -1,4 +1,15 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ChilliShell Terminal Portfolio
+
+Welcome to **ChilliShell**, a unique portfolio project built as a Linux-style terminal and GUI in [Next.js](https://nextjs.org). This app offers an interactive, customizable terminal interface with boot animations and a suite of simulated Linux commands. Switch between terminal and GUI modes to explore the developer's projects, skills, and contact information in a playful, engaging way.
+
+## Features
+
+- **Terminal UI**: Simulates a real Linux terminal with commands like `help`, `about`, `projects`, `contact`, `whoami`, and more.
+- **Boot Animation**: Realistic boot sequence animation with system service messages.
+- **GUI Portfolio**: Modern, animated GUI view highlighting skills and featured projects.
+- **Linux Command Simulator**: Try commands like `echo`, `clear`, and `random`. Switch between terminal and GUI modes using `gui`/`terminal`.
+- **Project Showcase**: Displays recent work, skills, and resume download.
+- **Tech Stack**: React, Next.js, TypeScript, Tailwind CSS, Node.js, MongoDB, Docker, and more.
 
 ## Getting Started
 
@@ -14,23 +25,54 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Available Terminal Commands
+
+- `help` — Lists all available commands
+- `about` — Info about this portfolio project
+- `projects` — Shows featured projects
+- `contact` — Shows contact info
+- `whoami` — About the portfolio owner
+- `skills` — Lists technical skills
+- `gui` — Switches to GUI mode
+- `terminal` — Returns to terminal mode
+- `echo [text]` — Repeats your input
+- `random` — Shows a random number
+- `github` — Opens GitHub profile
+- `linkedin` — Opens LinkedIn profile
+- `resume` — Download resume (simulated)
+- `clear` — Clears terminal output
+
+## Technical Skills
+
+- React, Next.js, TypeScript, Node.js, Tailwind CSS, MongoDB, Docker
+
+## Featured Projects
+
+- **Terminal UI Portfolio**: Interactive terminal interface portfolio.
+- **Boot Animation Simulator**: Realistic Linux boot simulation.
+- **Linux Command Simulator**: Try Linux commands in a safe, fun environment.
+
+## Contact
+
+- **Email**: chilli@gmail.com
+- **GitHub**: [github.com/ChilliRoger](https://github.com/ChilliRoger)
+- **LinkedIn**: [linkedin.com/in/francis16102005](https://www.linkedin.com/in/francis16102005)
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Next.js Documentation](https://nextjs.org/docs) — Learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) — Interactive Next.js tutorial.
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The easiest way to deploy your Next.js app is to use [Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+&copy; Francis Roger. All rights reserved.
+
+_Built with Next.js, React, and Tailwind CSS_
