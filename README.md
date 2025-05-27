@@ -1,4 +1,4 @@
-# ChilliShell Terminal Portfolio
+# ChilliShell 
 
 Welcome to **ChilliShell**, a unique portfolio project built as a Linux-style terminal and GUI in [Next.js](https://nextjs.org). This app offers an interactive, customizable terminal interface with boot animations and a suite of simulated Linux commands. Switch between terminal and GUI modes to explore the developer's projects, skills, and contact information in a playful, engaging way.
 
@@ -62,17 +62,3 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 - **GitHub**: [github.com/ChilliRoger](https://github.com/ChilliRoger)
 - **LinkedIn**: [linkedin.com/in/francis16102005](https://www.linkedin.com/in/francis16102005)
 
-## Learn More
-
-- [Next.js Documentation](https://nextjs.org/docs) — Learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) — Interactive Next.js tutorial.
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use [Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
-
----
-
-&copy; Francis Roger. All rights reserved.
-
-_Built with Next.js, React, and Tailwind CSS_
